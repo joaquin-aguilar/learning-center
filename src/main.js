@@ -6,7 +6,7 @@ import 'primeicons/primeicons.css'
 import Tooltip from 'primevue/tooltip'
 
 import './style.css'
-import App from './App.vue'
+import App from './app.vue'
 import i18n from "./i18n.js";
 import router from "./router.js";
 import pinia from "./pinia.js";
