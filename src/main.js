@@ -11,13 +11,14 @@ import i18n from "./i18n.js";
 import router from "./router.js";
 import pinia from "./pinia.js";
 import {
-    Button,
-    Checkbox,
+    Button, Card,
+    Checkbox, Column,
     ConfirmationService,
-    ConfirmDialog,
+    ConfirmDialog, DataTable,
     Dialog,
-    DialogService, FileUpload, FloatLabel, IconField, InputNumber, InputText, Rating,
-    SelectButton, Textarea,
+    DialogService,
+    Drawer, FileUpload, FloatLabel, IconField, InputIcon, InputNumber, InputText, Menu, Rating, Row, Select,
+    SelectButton, Tag, Textarea, Toast,
     ToastService, Toolbar
 } from "primevue";
 
