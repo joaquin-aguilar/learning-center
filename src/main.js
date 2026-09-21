@@ -8,9 +8,11 @@ import Tooltip from 'primevue/tooltip'
 import './style.css'
 import App from './App.vue'
 import i18n from "./i18n.js";
+import router from "./router.js";
 
 const primeVueUiLicenseKey = import.meta.env.VITE_PRIME_UI_LICENSE_KEY;
 createApp(App)
     .use(PrimeVue, {theme:{preset: Material}, ripple: true, license: primeVueUiLicenseKey})
     .use(i18n)
+    .use(router)
     .mount('#app')
