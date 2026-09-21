@@ -1,0 +1,36 @@
+{
+  "name": "learning-center",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ACME Learning center on a web platform for learning development. It is intended to illustrate DDD pricniples, built in Vue Axios Vite Pinia PrimeVue and Javascript",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords":
+  [
+    "vue",
+    "vite",
+    "pinia",
+    "primevue",
+    "javascript",
+    "ddd"
+  ],
+  "dependencies": {
+    "vue": "^3.5.42",
+    "axios": "^1.20.0",
+    "pinia": "^4.0.3",
+    "primevue": "^5.0.1",
+    "@primeuix/themes": "^3.0.1",
+    "primeicons": "^8.0.1",
+    "vue-i18n": "^11.4.12",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.8",
+    "vite": "^8.3.0",
+    "json-server": "^0.17.4"
+  }
+}
